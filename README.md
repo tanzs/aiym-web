@@ -6,8 +6,7 @@ ELADMIN 前端源码
 
 |     |   后端源码  |   前端源码  |
 |---  |--- | --- |
-|  github   |  https://github.com/elunez/eladmin   |  https://github.com/elunez/eladmin-web   |
-|  码云   |  https://gitee.com/elunez/eladmin   |  https://gitee.com/elunez/eladmin-web   |
+|  github   |  https://github.com/tanzs/aiym   |  https://github.com/tanzs/aiym-web   |
 
 #### 开发文档
 [https://docs.auauz.net/#/](https://docs.auauz.net/#/)
@@ -29,7 +28,3 @@ npm run dev
 # 构建生产环境
 npm run build
 ```
-
-#### 反馈交流
-
-- QQ交流群：891137268
