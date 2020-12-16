@@ -8,32 +8,31 @@
             <el-radio-button label="2">分类销售额</el-radio-button>
           </el-radio-group>
         </div>
-          <now-chart v-bind:type="type"/>   //传值
-       </el-row>
+        <now-chart :type="type" />
+      </el-row>
     </div>
   </div>
 </template>
 
-
 <script>
-import NowChart from '@/views/chat/chats'  //引用echarts组件
+import NowChart from '@/views/chat/chats' // 引用echarts组件
 
 export default {
   name: 'Dashboard',
-  data(){
-     return {
-      type:'1',
-     }
-  },
   components: {
     NowChart
   },
-   methods:{
-      changeType(value){
-         console.log("当前选中:"+value)
-         this.type=value;
-      }
-   }
+  data() {
+    return {
+      type: '1'
+    }
+  },
+  methods: {
+    changeType(value) {
+      console.log('当前选中:' + value)
+      this.type = value
+    }
+  }
 }
 </script>
 
